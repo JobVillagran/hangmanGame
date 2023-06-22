@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Ahorcado</h1>
+        <img id="hangman-image" src="/assets/img/hangman1.png" alt="Dibujo del Ahorcado">
+        <div class="game-info">
+            <p id="masked-word"></p>
+            <p id="guessed-letters"></p>
+            <p id="message"></p>
+        </div>
+        <div class="game-input">
+            <input type="text" id="guess-input" placeholder="Adivina una letra">
+            <button id="guess-button">Adivinar</button>
+        </div>
+        <button id="restart-button">Reiniciar Juego</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

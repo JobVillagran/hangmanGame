@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#hangman-image {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+.game-info p {
+    margin-bottom: 10px;
+}
+
+.game-input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.game-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+.game-input button {
+    padding: 10px 20px;
+    background-color: #00E676;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+#restart-button {
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    background-color: #E040FB;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
